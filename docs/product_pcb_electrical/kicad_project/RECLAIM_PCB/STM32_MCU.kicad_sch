@@ -1,0 +1,2727 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "1e8ec03d-1297-4e19-b6ae-d65c2bff1a43")
+	(paper "A1")
+	(title_block
+		(title "RECLAIM Product PCB - STM32F405 MCU")
+		(date "2026-03-19")
+		(rev "01")
+		(company "Western University / MSE 4499")
+	)
+	(lib_symbols
+		(symbol "MCU_ST_STM32F4:STM32F405RGTx"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "STM32F405RGT6"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "STM32F405 MCU LQFP-64"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "Interface_USB:CP2102N-Axx-xQFN24"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CP2102N"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB-UART bridge"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "Device:Crystal"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Crystal oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "C"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "4-pin header"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB_C"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB-C receptacle"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "3.3V power rail"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font (size 1.27 1.27)
+					)
+				)
+			)
+		)
+	)
+
+	(symbol
+		(lib_id "MCU_ST_STM32F4:STM32F405RGTx")
+		(at 80 60 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b720eef4-f0a3-490b-ad32-3a7236aeaa21")
+		(property "Reference" "U4"
+			(at 82.54 58.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "STM32F405RGT6"
+			(at 82.54 61.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 80 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "STM32F405 MCU"
+			(at 80 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "5f372703-118a-470a-9c61-3533e1935336")
+		)
+		(pin "2"
+			(uuid "2e7c1497-cecb-4e36-b8e6-a6ceb1da42f4")
+		)
+		(pin "3"
+			(uuid "e045d4ea-3466-4db8-b6aa-6a3eaf8fec3d")
+		)
+		(pin "4"
+			(uuid "1edff851-e740-41fd-a3e4-15354124d0dc")
+		)
+		(pin "5"
+			(uuid "2053d855-5272-4d12-907e-04946ef878c5")
+		)
+		(pin "6"
+			(uuid "24aa9709-bbe1-4f02-b4b7-9fa11991d6ca")
+		)
+		(pin "7"
+			(uuid "58d62f82-e8df-4c76-b424-9eb0de165191")
+		)
+		(pin "8"
+			(uuid "d27431e5-4727-48ec-88e5-5780cc7e9b4b")
+		)
+		(pin "9"
+			(uuid "20ed1281-a9ba-4094-974d-69272fffbf08")
+		)
+		(pin "10"
+			(uuid "9ebc98c4-86c8-4351-838b-f2cb6e72f084")
+		)
+		(pin "11"
+			(uuid "bb39c2eb-2a49-4e97-b5c2-917ac97c75bc")
+		)
+		(pin "12"
+			(uuid "4afbbbe0-e04b-4d23-bc0e-1c0b86eb6a07")
+		)
+		(pin "13"
+			(uuid "32ddc900-5fdd-45a8-be43-7081273ce687")
+		)
+		(pin "14"
+			(uuid "e8bda5bd-e27c-48e1-8103-15bc062f0d81")
+		)
+		(pin "15"
+			(uuid "478dac3c-573a-46bd-97e1-23dd5b4862c2")
+		)
+		(pin "16"
+			(uuid "adf5cef4-d685-4337-a0d8-ec2c694d5611")
+		)
+		(pin "17"
+			(uuid "330d16e9-4cb1-4e6d-a38c-6a1ff38036da")
+		)
+		(pin "18"
+			(uuid "7aaf3520-1858-4856-ae63-b225cb8fefb9")
+		)
+		(pin "19"
+			(uuid "63632510-d4fa-4be5-b89b-1f1b71474a67")
+		)
+		(pin "20"
+			(uuid "e096e31b-49e2-42fc-81f6-836928b7e2bf")
+		)
+		(pin "21"
+			(uuid "1ef2e998-a8ce-4732-a5b2-dd024e936775")
+		)
+		(pin "22"
+			(uuid "51644957-e832-43b3-9a57-5ec104849f5a")
+		)
+		(pin "23"
+			(uuid "35fed943-37c7-4af8-bf77-deebd03b0f49")
+		)
+		(pin "24"
+			(uuid "97785bc7-a5ce-46f2-80d5-6ffa31bc45b2")
+		)
+		(pin "25"
+			(uuid "a04c994b-90ea-4831-a319-394c751459cd")
+		)
+		(pin "26"
+			(uuid "873bc442-f2da-415c-82db-29d829400c1a")
+		)
+		(pin "27"
+			(uuid "3a55bd4d-3cce-4b62-9fa4-1451469c1f7b")
+		)
+		(pin "28"
+			(uuid "96c84e66-d880-4c11-95dd-2e06e31ece9b")
+		)
+		(pin "29"
+			(uuid "dd1b5fd3-0070-410b-86c3-ff0f4ba94573")
+		)
+		(pin "30"
+			(uuid "9aa0732d-6fcd-4086-944c-717d1737c3a8")
+		)
+		(pin "31"
+			(uuid "714e97ff-40a1-492a-8480-668941826657")
+		)
+		(pin "32"
+			(uuid "368ea56e-8605-4843-a584-87cb06fa1d80")
+		)
+		(pin "33"
+			(uuid "e0cf7088-3bd7-4924-a7a6-abd27991d854")
+		)
+		(pin "34"
+			(uuid "bb1ea45e-c5b1-4be8-aa85-96d84890be12")
+		)
+		(pin "35"
+			(uuid "df918360-5639-4cef-a0b3-7942980819c2")
+		)
+		(pin "36"
+			(uuid "bedbb912-7f9a-416b-b29b-d3e3183cea62")
+		)
+		(pin "37"
+			(uuid "2d6269bc-ac4e-4836-817c-0a755774203b")
+		)
+		(pin "38"
+			(uuid "13c6fd62-4bbb-4630-a387-7c98d3c7c54f")
+		)
+		(pin "39"
+			(uuid "d61bd1da-e9e5-4a34-b7c7-b07a134c7da3")
+		)
+		(pin "40"
+			(uuid "8fbf839f-e77d-4fec-b9b0-487155073e81")
+		)
+		(pin "41"
+			(uuid "9bb91a9c-598e-48db-a0e5-b6eeda8e7a99")
+		)
+		(pin "42"
+			(uuid "e2c76ba8-0522-464e-960c-4743f10c74a7")
+		)
+		(pin "43"
+			(uuid "4104b22a-b230-49e9-a203-577ace2fb995")
+		)
+		(pin "44"
+			(uuid "4ed922e4-e8de-49c3-a4a3-d8dcdde8164b")
+		)
+		(pin "45"
+			(uuid "9150992a-e96b-4e25-a1a1-2c8e97ce545a")
+		)
+		(pin "46"
+			(uuid "cbf65e4a-989e-41e7-8675-86ac51380415")
+		)
+		(pin "47"
+			(uuid "e456a582-04cf-43e2-9c35-9ac7f9c3ea3d")
+		)
+		(pin "48"
+			(uuid "07c4d215-547d-4348-b02c-abebeb8dca75")
+		)
+		(pin "49"
+			(uuid "74f9ca3f-cc98-4efc-98ae-d3eb56e59795")
+		)
+		(pin "50"
+			(uuid "e1c86f36-ef79-476b-b628-504f4dd11a38")
+		)
+		(pin "51"
+			(uuid "6d8af559-f3c4-4d28-a47d-664075b8053c")
+		)
+		(pin "52"
+			(uuid "0bfaa93e-b9d8-4737-8657-ddf632892b6b")
+		)
+		(pin "53"
+			(uuid "a61e0bfa-163d-4789-ad12-dc0681311e08")
+		)
+		(pin "54"
+			(uuid "b57429b8-4eda-4d6f-8e50-6d1cfef5dd0e")
+		)
+		(pin "55"
+			(uuid "0e52c162-8064-4f03-a885-fdbc146328f7")
+		)
+		(pin "56"
+			(uuid "0dfe3ba2-5914-4d13-bbb8-446b64dbf6e8")
+		)
+		(pin "57"
+			(uuid "dc9b9f4c-2031-42f5-9a4c-a9a8ccf6a4c2")
+		)
+		(pin "58"
+			(uuid "a35d3965-8a27-42b0-b1ec-537e1b807b01")
+		)
+		(pin "59"
+			(uuid "a5c4a95f-1e3b-464d-b859-56c6b264be76")
+		)
+		(pin "60"
+			(uuid "e12f538d-64a8-48cc-bde9-17daf20d8d3c")
+		)
+		(pin "61"
+			(uuid "3483a051-8189-47b5-a115-373dc870cf59")
+		)
+		(pin "62"
+			(uuid "139dfe05-b10e-4b68-81bd-3d27b9216748")
+		)
+		(pin "63"
+			(uuid "0f0eb1f2-8dc0-46de-a749-bda94559ab2d")
+		)
+		(pin "64"
+			(uuid "8468c0c5-3129-408c-a6dc-6077e39f92b8")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_USB:CP2102N-Axx-xQFN24")
+		(at 150 60 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3db9f912-f10f-4728-82f7-0a180f3d45e3")
+		(property "Reference" "U_USB"
+			(at 152.54 58.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "CP2102N"
+			(at 152.54 61.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 150 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 150 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "USB-UART bridge"
+			(at 150 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "8ac8c832-b038-4222-a46e-955b1a021b0d")
+		)
+		(pin "2"
+			(uuid "2d983083-2572-4dd5-9a3e-7a5bec8a0c94")
+		)
+		(pin "3"
+			(uuid "f2b56d81-c7af-4c53-a898-5929345567b9")
+		)
+		(pin "4"
+			(uuid "48288972-fafb-40e9-855e-7afd711cde30")
+		)
+		(pin "5"
+			(uuid "259069fb-9732-4d5d-9b65-2e3742e9d45c")
+		)
+		(pin "6"
+			(uuid "d8f887f3-39d5-41a4-9867-9db29f44f23e")
+		)
+		(pin "7"
+			(uuid "ae259191-8720-4584-99cd-c47bf43470b2")
+		)
+		(pin "8"
+			(uuid "2edfe28d-3e66-40b8-9d94-b594761219e1")
+		)
+		(pin "9"
+			(uuid "6bb25e18-2c62-41d0-bde3-6ecb4d0e1a1c")
+		)
+		(pin "10"
+			(uuid "08b576f6-292f-4d2e-a6c8-4af7ce469725")
+		)
+		(pin "11"
+			(uuid "33382142-6e41-428f-a2bc-027afe834171")
+		)
+		(pin "12"
+			(uuid "fb937e59-5c5d-47fe-a026-b3d26991c06e")
+		)
+		(pin "13"
+			(uuid "32fc9847-fb5b-4f73-9708-5c2d492f6d32")
+		)
+		(pin "14"
+			(uuid "a98732c0-b3fd-4fc1-81bb-908155cdcea4")
+		)
+		(pin "15"
+			(uuid "a714f486-fd5e-4951-9991-0b3db95bf7ac")
+		)
+		(pin "16"
+			(uuid "6d6c85c0-4b76-40c8-aec9-3c49af616596")
+		)
+		(pin "17"
+			(uuid "bfc201f8-d05c-4e31-a2df-c8e50c20370a")
+		)
+		(pin "18"
+			(uuid "81b058ab-df5a-4b28-891d-eb123a7bbd07")
+		)
+		(pin "19"
+			(uuid "2a0b06ca-bf25-4293-9c8c-ebd4c46623cf")
+		)
+		(pin "20"
+			(uuid "fd76b9ca-3a97-4dae-bae0-bf476502ee59")
+		)
+		(pin "21"
+			(uuid "ece3c731-1714-4aa8-b0f9-95f9ccd847fc")
+		)
+		(pin "22"
+			(uuid "e223e5a6-44a4-42e6-8374-96a868b1288b")
+		)
+		(pin "23"
+			(uuid "210883b5-3568-4265-bdbb-f091629e7cf8")
+		)
+		(pin "24"
+			(uuid "0cc9484d-93c6-47f3-8c84-dd45f9e6973d")
+		)
+		(pin "EP"
+			(uuid "c69b5ec6-5212-4884-999c-d139c2522300")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "U_USB")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal")
+		(at 55 50 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eb7d939-f3c7-4136-b46e-4c298a54eed4")
+		(property "Reference" "Y1"
+			(at 57.54 48.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "8MHz"
+			(at 57.54 51.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 55 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "8MHz crystal"
+			(at 55 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "f128060c-0388-48f5-96a0-eaa6ff2b46eb")
+		)
+		(pin "2"
+			(uuid "d67fe963-7aba-466a-a9be-68238c40e881")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 50 55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "397c1e64-a3fa-4452-addf-582582854301")
+		(property "Reference" "C9"
+			(at 52.54 53.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "22pF"
+			(at 52.54 56.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50 55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 50 55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Crystal load cap A"
+			(at 50 55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "d91d99d0-b56b-405a-ada8-c244ccf09728")
+		)
+		(pin "2"
+			(uuid "7c9058f4-cdf0-42b7-9629-fba5857696c0")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60 55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "023f9cf5-3f9f-4360-bbe5-3eb29d5a8a56")
+		(property "Reference" "C10"
+			(at 62.54 53.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "22pF"
+			(at 62.54 56.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60 55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 60 55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "Crystal load cap B"
+			(at 60 55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "45eab370-c000-4045-8307-0356f2d788e5")
+		)
+		(pin "2"
+			(uuid "e4a6bb15-85e1-4c11-b3d1-bc32e9898d54")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 110 100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d86db769-995a-48d0-a290-6c8e8c902cb1")
+		(property "Reference" "C_VDD1"
+			(at 112.54 98.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 112.54 101.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 110 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 110 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "VDD decoupling"
+			(at 110 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "69e2f7d6-9b33-4bfe-a2dc-1a438a983c45")
+		)
+		(pin "2"
+			(uuid "7146086b-4128-4502-8eaf-3fd9927ebb80")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "C_VDD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 115 100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "522dde4d-7645-4904-ad2f-37813222b5a5")
+		(property "Reference" "C_VDD_BULK"
+			(at 117.54 98.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 117.54 101.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 115 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "VDD bulk"
+			(at 115 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "29bac61e-ce9f-40e0-81e0-f9f11504b953")
+		)
+		(pin "2"
+			(uuid "f52d2fda-dcdf-4256-93bb-842dc1ec7cb0")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "C_VDD_BULK")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 120 100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb442db7-e177-4ead-a489-4f5e072ae040")
+		(property "Reference" "C_VCAP1"
+			(at 122.54 98.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 122.54 101.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 120 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "VCAP1"
+			(at 120 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "40727304-ac95-4a76-bb7f-51b3b5b7dce5")
+		)
+		(pin "2"
+			(uuid "0fd3d701-55f3-4a71-820b-117acdab9730")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "C_VCAP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125 100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb947850-89fa-4fd3-ad8a-60ec837838fe")
+		(property "Reference" "C_VCAP2"
+			(at 127.54 98.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 127.54 101.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 125 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "VCAP2"
+			(at 125 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "de50bca0-1247-407d-acfc-202bc5c607ce")
+		)
+		(pin "2"
+			(uuid "6a492909-38c3-4316-9021-07341ae2e608")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "C_VCAP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 130 100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ec1ab58-b2d9-44d8-8303-b29e4b766e66")
+		(property "Reference" "C_NRST"
+			(at 132.54 98.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 132.54 101.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 130 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "NRST filter"
+			(at 130 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "5cd09520-6e01-4250-b5d2-a536155a737c")
+		)
+		(pin "2"
+			(uuid "1c1b7041-a1a8-4ef2-a65e-1c8e4cd71369")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "C_NRST")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135 100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a21302b4-1fd6-484b-8c3e-f20fc0b6b78a")
+		(property "Reference" "R1"
+			(at 137.54 98.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 137.54 101.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 135 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "NRST pull-up"
+			(at 135 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "d2aa1d57-284f-4427-b936-169e3d919554")
+		)
+		(pin "2"
+			(uuid "7c8a6917-2556-4605-9d5d-f8b976e66efb")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 140 100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48939cf1-8ecf-4982-b26b-5b4736f247c6")
+		(property "Reference" "R2"
+			(at 142.54 98.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 142.54 101.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 140 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "BOOT0 pull-down"
+			(at 140 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "6a3c2be8-8eb4-4354-a1cc-f44ac99b8b08")
+		)
+		(pin "2"
+			(uuid "39d18c31-903f-4563-97f6-51e55164d2ef")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 145 100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41558208-b4c7-4021-95ce-6cf877b7bbee")
+		(property "Reference" "R_I2C_SCL"
+			(at 147.54 98.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 147.54 101.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 145 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 145 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "I2C SCL pull-up"
+			(at 145 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "75a215d2-fda9-44a2-8370-1ff71a3ee792")
+		)
+		(pin "2"
+			(uuid "c0caef43-4a60-4e70-802d-250c9a535a79")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "R_I2C_SCL")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 150 100 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "536f5b71-6b6c-40a3-a177-165fac4ef926")
+		(property "Reference" "R_I2C_SDA"
+			(at 152.54 98.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 152.54 101.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 150 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 150 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "I2C SDA pull-up"
+			(at 150 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "1af25fc2-5c46-4b2b-bd10-1eaab07bad7c")
+		)
+		(pin "2"
+			(uuid "8bac6f48-5f7d-4a22-87be-18151fc0b4ae")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "R_I2C_SDA")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 170 55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e7ac6e6-d996-4afc-9c1a-65a821ed6a69")
+		(property "Reference" "J_SWD"
+			(at 172.54 53.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "SWD Header"
+			(at 172.54 56.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170 55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 170 55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "SWD debug header"
+			(at 170 55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "276ef21f-4a5a-42d8-8933-d89dfee12ad2")
+		)
+		(pin "2"
+			(uuid "afa575ba-00db-42be-b992-0986ae4a7f30")
+		)
+		(pin "3"
+			(uuid "fdbdeb19-182f-4c1b-a505-b3367a0478f8")
+		)
+		(pin "4"
+			(uuid "3e08009c-4204-4ec8-9551-43f5750fc5ad")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "J_SWD")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 170 70 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd9e66d1-fdca-4b39-85ce-548a6893d34d")
+		(property "Reference" "J_USB"
+			(at 172.54 68.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Value" "USB-C"
+			(at 172.54 71.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170 70 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 170 70 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" "USB-C for CP2102N"
+			(at 170 70 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "A1"
+			(uuid "fdcb9138-aa09-4ec3-9275-7458a512a933")
+		)
+		(pin "A2"
+			(uuid "83c59fd6-3139-4841-85fd-bfa82c03a2f8")
+		)
+		(pin "A3"
+			(uuid "697b2c19-0be2-4f15-b099-f9442a0118bd")
+		)
+		(pin "A4"
+			(uuid "67c0fa43-270d-4c2d-bca6-81b6db9a8ff0")
+		)
+		(pin "A5"
+			(uuid "31de01dc-3066-4220-9094-677ad6d3b4f2")
+		)
+		(pin "A6"
+			(uuid "3ee64ada-c913-475e-bb1b-28eaa6aec17d")
+		)
+		(pin "A7"
+			(uuid "9ec54249-654a-4596-a968-4299be0e0cd7")
+		)
+		(pin "A8"
+			(uuid "1f2fba2d-3302-412f-8fd7-9c851a290f75")
+		)
+		(pin "A9"
+			(uuid "7a59c86d-b3c4-4eb2-8533-cc526968b839")
+		)
+		(pin "A10"
+			(uuid "25f8e8f8-e0f8-42a8-a210-3698e7677c59")
+		)
+		(pin "A11"
+			(uuid "386f22db-a351-4bdd-9d99-e05537c2ca01")
+		)
+		(pin "A12"
+			(uuid "57747f35-3f7f-450e-a7c5-3aa78c82d441")
+		)
+		(pin "B1"
+			(uuid "21ce243e-86a1-4c8f-847d-e74092737a67")
+		)
+		(pin "B2"
+			(uuid "df35d291-742d-4fee-8a11-2ff6a7a5439e")
+		)
+		(pin "B3"
+			(uuid "a1030f51-e296-4cdd-844e-2369739eb0e6")
+		)
+		(pin "B4"
+			(uuid "63e0b6b6-30ae-456f-a585-44e2d1d46fa2")
+		)
+		(pin "B5"
+			(uuid "842851cd-738b-46f8-9243-d7850e62951b")
+		)
+		(pin "B6"
+			(uuid "bbb8cd96-8071-4142-a51e-5e4143cccbdb")
+		)
+		(pin "B7"
+			(uuid "8998703e-460e-4263-a362-b5c42e6fb8f3")
+		)
+		(pin "B8"
+			(uuid "30a13f26-7fa0-41c7-82a4-697d05f778e1")
+		)
+		(pin "B9"
+			(uuid "c2091c75-5043-4939-a511-70960b4d07e8")
+		)
+		(pin "B10"
+			(uuid "28d8c489-6bfb-44a3-b374-260e1520d110")
+		)
+		(pin "B11"
+			(uuid "79b0f19d-6eff-4bc4-81ef-117b2288b136")
+		)
+		(pin "B12"
+			(uuid "8b4b12e3-c5b4-4897-9ece-789ef7480d0e")
+		)
+		(pin "S"
+			(uuid "d9555c10-c0fa-4b7e-a8a1-e74fcd8884b2")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "J_USB")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 80 40 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b192c73-e5aa-4bd6-b67a-c7aa299b5337")
+		(property "Reference" "#PWR0201"
+			(at 80 42.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 80 37.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Footprint" ""
+			(at 80 40 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 80 40 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" ""
+			(at 80 40 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "fe1f20f5-bd78-482c-a01c-cec0ef369be0")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 150 40 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ca7b541-32c0-4531-b9f2-b4b9d08beac8")
+		(property "Reference" "#PWR0202"
+			(at 150 42.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 150 37.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Footprint" ""
+			(at 150 40 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 150 40 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" ""
+			(at 150 40 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "bde160c6-4d47-4536-904a-ef7ca69aff4b")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80 85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d71d3f22-9db1-4dd8-ae55-8786c4d4859c")
+		(property "Reference" "#PWR0203"
+			(at 80 87.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Value" "GND"
+			(at 80 82.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Footprint" ""
+			(at 80 85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 80 85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" ""
+			(at 80 85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "d79612d4-a6e1-4aac-b9ce-4572ca4ab4d2")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 150 85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21f87d65-6747-44ba-8353-6379f2ece9b9")
+		(property "Reference" "#PWR0204"
+			(at 150 87.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Value" "GND"
+			(at 150 82.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Footprint" ""
+			(at 150 85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 150 85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" ""
+			(at 150 85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "3e9bba8b-da3c-4d4b-850c-92f68380ff10")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110 108 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa0d8e79-1948-4df0-871d-3cf7baf715d0")
+		(property "Reference" "#PWR0205"
+			(at 110 110.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Value" "GND"
+			(at 110 105.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Footprint" ""
+			(at 110 108 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 110 108 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" ""
+			(at 110 108 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "5a447662-af38-4ad7-8525-3cbc2ac5eeda")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "#PWR0205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170 60 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "643c516c-d7c2-4e97-8d89-17d7a8bd8a08")
+		(property "Reference" "#PWR0206"
+			(at 170 62.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Value" "GND"
+			(at 170 57.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Footprint" ""
+			(at 170 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 170 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" ""
+			(at 170 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "0930a699-e299-4339-897f-57206edeeb7b")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "#PWR0206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 95 40 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54f01a4a-afe2-4a35-837c-7e064f0dc235")
+		(property "Reference" "#FLG0201"
+			(at 95 42.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 95 37.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Footprint" ""
+			(at 95 40 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 95 40 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" ""
+			(at 95 40 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "2787dbdd-3a44-4f8d-be1b-dea84070798c")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "#FLG0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 165 40 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "980ceecd-a7ab-4b46-8067-9f94c1f8d6ec")
+		(property "Reference" "#FLG0202"
+			(at 165 42.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 165 37.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font (size 1.27 1.27))
+			)
+		)
+		(property "Footprint" ""
+			(at 165 40 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Datasheet" ""
+			(at 165 40 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(property "Description" ""
+			(at 165 40 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects (font (size 1.27 1.27)))
+		)
+		(pin "1"
+			(uuid "c950e509-324d-4a74-8edf-c981823a0ef2")
+		)
+		(instances
+			(project "RECLAIM_PCB"
+				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/86b4d3a1-1b92-4b0c-9cda-b512cbf2aa55"
+					(reference "#FLG0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "VCC_3V3"
+		(at 80 38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc957e23-ebd3-481a-a283-d8a44ea37c50")
+	)
+	(label "GND"
+		(at 80 87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b1e4a6ed-f43a-448e-973e-76cfc0b850ad")
+	)
+	(label "SPI1_SCK"
+		(at 40 60 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d642da8-d3d6-413c-8b86-c1bdac39f9f8")
+	)
+	(label "SPI1_MOSI"
+		(at 40 63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5332a8ac-0710-4b61-8a7f-fa038751febe")
+	)
+	(label "SPI1_MISO"
+		(at 40 66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3f0872d-773a-4b75-9fe0-ec8d81c9711b")
+	)
+	(label "SPI1_CS_DRV_L"
+		(at 40 69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08332ece-d08d-4a57-990e-0e0ee95e8eef")
+	)
+	(label "SPI1_CS_DRV_R"
+		(at 40 72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ec6bd41-6aae-49c0-a378-e007ed049f8e")
+	)
+	(label "SPI1_CS_IMU"
+		(at 40 75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d338aea-0275-437d-8c07-7d9e257eae3f")
+	)
+	(label "CAN1_TX"
+		(at 40 78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa11ef71-1a93-4741-8939-487909130475")
+	)
+	(label "CAN1_RX"
+		(at 40 81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ec48f09-28bf-422f-a99d-3e49e49d1b70")
+	)
+	(label "CAN2_TX"
+		(at 40 84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fed448e-dafc-49af-9ff7-b3bf5ce6f7a5")
+	)
+	(label "CAN2_RX"
+		(at 40 87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4f1c6e7-72f9-49d8-8346-9bc56ea3ae0c")
+	)
+	(label "USART2_TX"
+		(at 40 90 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a93c48c-2f88-4267-91ae-c3b9d6285ea7")
+	)
+	(label "USART2_RX"
+		(at 40 93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fc47f2c-39d1-44d5-8541-0051c6bdc02a")
+	)
+	(label "I2C1_SCL"
+		(at 40 96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d000d64-d56f-4b45-ad87-31fe33b611c8")
+	)
+	(label "I2C1_SDA"
+		(at 40 99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a9543d8-c06c-4c10-b84a-c5303337801d")
+	)
+	(label "ENC_L_A"
+		(at 120 60 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81c21b30-3a89-47ad-9c21-39008e81e682")
+	)
+	(label "ENC_L_B"
+		(at 120 63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f212a4f-c7a1-4c52-91f3-2ed92558b933")
+	)
+	(label "ENC_R_A"
+		(at 120 66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f4a20eb-54e1-4fc2-a13e-f4677bfedf3c")
+	)
+	(label "ENC_R_B"
+		(at 120 69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08e42bb7-fd88-43a4-adc5-df750b42a3b8")
+	)
+	(label "ESTOP_RELAY_CTRL"
+		(at 120 72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cc20016e-d455-4334-8c5c-c6c47fb82f23")
+	)
+	(label "USART2_TX"
+		(at 145 55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0e891f3-0be8-49a7-8c2c-d586dd3b649f")
+	)
+	(label "USART2_RX"
+		(at 145 58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc8d0dc8-bf2a-4df0-b5ef-62a43661527b")
+	)
+	(sheet_instances
+		(path "/"
+			(page "3")
+		)
+	)
+	(embedded_fonts no)
+)

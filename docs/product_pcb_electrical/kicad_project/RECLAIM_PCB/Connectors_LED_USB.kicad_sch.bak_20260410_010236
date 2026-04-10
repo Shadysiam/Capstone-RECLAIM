@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "bdf2989d-69db-4883-a2ad-aaa72fd3c55d")
+	(paper "A2")
+	(title_block
+		(title "RECLAIM Product PCB - Connectors, LED, USB & Peripherals")
+		(date "2026-03-19")
+		(rev "01")
+		(company "Western University / MSE 4499")
+	)
+	(lib_symbols)
+)

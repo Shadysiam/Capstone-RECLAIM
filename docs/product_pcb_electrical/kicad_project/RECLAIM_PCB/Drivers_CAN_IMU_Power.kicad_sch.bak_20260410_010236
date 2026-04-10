@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8aa666fd-8fd8-4514-ae6b-072cd70ff812")
+	(paper "A2")
+	(title_block
+		(title "RECLAIM Product PCB - Motor Drivers, CAN, IMU & Power Monitoring")
+		(date "2026-03-19")
+		(rev "01")
+		(company "Western University / MSE 4499")
+	)
+	(lib_symbols)
+)
