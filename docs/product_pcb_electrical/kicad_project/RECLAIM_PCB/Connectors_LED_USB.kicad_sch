@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "bdf2989d-69db-4883-a2ad-aaa72fd3c55d")
-	(paper "A2")
+	(paper "A3")
 	(title_block
 		(title "RECLAIM Product PCB - Connectors, LED, USB & Peripherals")
 		(date "2026-03-19")
@@ -746,7 +746,7 @@
 
 	(symbol
 		(lib_id "PT4115:PT4115")
-		(at 40 40 0)
+		(at 60 70 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -821,7 +821,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 30 35 0)
+		(at 45 52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -887,7 +887,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS34")
-		(at 30 45 0)
+		(at 45 95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -953,7 +953,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 50 45 0)
+		(at 78 95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1019,7 +1019,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 55 40 0)
+		(at 92 70 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1085,7 +1085,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 75 40 0)
+		(at 130 55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1151,7 +1151,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 75 47 0)
+		(at 130 85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1217,7 +1217,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 85 40 0)
+		(at 150 65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1286,7 +1286,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 110 40 0)
+		(at 200 60 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1358,7 +1358,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 120 40 0)
+		(at 245 60 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1430,7 +1430,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 130 40 0)
+		(at 285 60 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1496,7 +1496,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 140 40 0)
+		(at 325 60 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1562,7 +1562,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 150 40 0)
+		(at 345 60 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1628,7 +1628,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 160 40 0)
+		(at 365 60 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1694,7 +1694,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 170 40 0)
+		(at 385 60 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1760,7 +1760,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 40 25 0)
+		(at 50 30 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1822,7 +1822,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 80 25 0)
+		(at 130 30 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1884,7 +1884,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 110 25 0)
+		(at 195 30 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1946,7 +1946,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 120 25 0)
+		(at 240 30 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2008,7 +2008,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 130 25 0)
+		(at 280 30 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2070,7 +2070,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40 58 0)
+		(at 50 130 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2132,7 +2132,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80 58 0)
+		(at 130 115 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2194,7 +2194,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 110 55 0)
+		(at 195 100 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2256,7 +2256,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120 55 0)
+		(at 240 100 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2318,7 +2318,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140 50 0)
+		(at 325 95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2380,7 +2380,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 150 50 0)
+		(at 345 95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2442,7 +2442,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160 50 0)
+		(at 365 95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2504,7 +2504,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170 50 0)
+		(at 385 95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2566,7 +2566,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 35 25 0)
+		(at 58 30 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2628,7 +2628,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 75 25 0)
+		(at 138 30 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2689,7 +2689,7 @@
 		)
 	)
 	(label "VCC_12V"
-		(at 40 23 0)
+		(at 50 38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2700,7 +2700,7 @@
 		(uuid "b734d3a3-0b82-45b0-859c-7278294b6dbf")
 	)
 	(label "VCC_5V"
-		(at 80 23 0)
+		(at 130 38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2711,7 +2711,7 @@
 		(uuid "94ff0123-e5a9-4a62-8326-bb016dc6b90a")
 	)
 	(label "USART2_TX"
-		(at 110 38 0)
+		(at 200 52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2722,7 +2722,7 @@
 		(uuid "663d798d-72ca-4381-979f-c8a0a3561652")
 	)
 	(label "USART2_RX"
-		(at 110 40.54 0)
+		(at 200 57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2733,7 +2733,7 @@
 		(uuid "08ebcfd7-9ea5-4d60-8596-ed78cac39225")
 	)
 	(label "VCC_12V"
-		(at 120 23 0)
+		(at 240 38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2744,7 +2744,7 @@
 		(uuid "cd9f0196-9a61-4d9c-8e26-8ef0b820655d")
 	)
 	(label "VCC_5V"
-		(at 130 23 0)
+		(at 280 38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2755,7 +2755,7 @@
 		(uuid "7921d8ba-f6b7-4363-a2c5-490668ea8710")
 	)
 	(label "BUMPER_FL"
-		(at 140 38 0)
+		(at 325 52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2766,7 +2766,7 @@
 		(uuid "26e943a2-e425-463d-b244-be511cb1f92e")
 	)
 	(label "BUMPER_FR"
-		(at 150 38 0)
+		(at 345 52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2777,7 +2777,7 @@
 		(uuid "64e454fc-3a90-44e0-956f-820a7c65e6fc")
 	)
 	(label "BUMPER_RL"
-		(at 160 38 0)
+		(at 365 52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2788,7 +2788,7 @@
 		(uuid "bac14b29-95f2-43bc-a837-aee8a894eb22")
 	)
 	(label "BUMPER_RR"
-		(at 170 38 0)
+		(at 385 52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

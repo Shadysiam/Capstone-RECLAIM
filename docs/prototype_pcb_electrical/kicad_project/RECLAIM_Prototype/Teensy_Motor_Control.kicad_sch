@@ -1,0 +1,1176 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d7dd66a9-52fb-4a80-9e7c-d2da49ada77b")
+	(paper "A3")
+	(title_block
+		(title "RECLAIM Prototype — Teensy & Motor Control")
+		(date "2026-04-10")
+		(rev "01")
+		(company "Western University / MSE 4499")
+	)
+	(lib_symbols
+	)
+
+		(symbol
+			(lib_id "power:+12V")
+			(at 40 25 0)
+			(unit 1)
+			(body_style 1)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files no)
+			(dnp no)
+			(fields_autoplaced yes)
+			(uuid "8ab4a254-a3ba-4f77-a711-b7a4c81bceb6")
+			(property "Reference" "#PWR101"
+				(at 40 23 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) hide)
+			)
+			(property "Value" "+12V"
+				(at 40 27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 40 25 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 40 25 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(pin "1" (uuid "8281a358-408f-46b4-a041-fe0fc13c04ff"))
+			(instances
+				(project "RECLAIM_Prototype"
+					(path "/c8bc6d58-335b-42c2-8737-dde68fdb46f0/781410a6-696d-469f-b6ff-a3e87a3ddb6e"
+						(reference "#PWR101")
+						(unit 1)
+					)
+				)
+			)
+		)
+
+		(symbol
+			(lib_id "power:GND")
+			(at 60 25 0)
+			(unit 1)
+			(body_style 1)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files no)
+			(dnp no)
+			(fields_autoplaced yes)
+			(uuid "f17d5af7-e1e8-4476-b8fb-58ca654ffdbf")
+			(property "Reference" "#PWR102"
+				(at 60 23 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) hide)
+			)
+			(property "Value" "GND"
+				(at 60 27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 60 25 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 60 25 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(pin "1" (uuid "2d63888b-0b97-49a7-9594-573b12b14c26"))
+			(instances
+				(project "RECLAIM_Prototype"
+					(path "/c8bc6d58-335b-42c2-8737-dde68fdb46f0/781410a6-696d-469f-b6ff-a3e87a3ddb6e"
+						(reference "#PWR102")
+						(unit 1)
+					)
+				)
+			)
+		)
+
+		(symbol
+			(lib_id "power:+3V3")
+			(at 80 25 0)
+			(unit 1)
+			(body_style 1)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files no)
+			(dnp no)
+			(fields_autoplaced yes)
+			(uuid "07512358-5a88-4c13-a288-173254b9966d")
+			(property "Reference" "#PWR103"
+				(at 80 23 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) hide)
+			)
+			(property "Value" "+3V3"
+				(at 80 27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Footprint" ""
+				(at 80 25 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 80 25 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(pin "1" (uuid "a3985f72-e22e-4d87-88cb-91745343eeb7"))
+			(instances
+				(project "RECLAIM_Prototype"
+					(path "/c8bc6d58-335b-42c2-8737-dde68fdb46f0/781410a6-696d-469f-b6ff-a3e87a3ddb6e"
+						(reference "#PWR103")
+						(unit 1)
+					)
+				)
+			)
+		)
+
+		(symbol
+			(lib_id "Connector_Generic:Conn_02x24")
+			(at 130 90 0)
+			(unit 1)
+			(body_style 1)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(dnp no)
+			(fields_autoplaced yes)
+			(uuid "c77b083e-ea8d-4288-bef5-038faa3fe420")
+			(property "Reference" "U_MCU"
+				(at 132.54 88.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Value" "Teensy 4.1"
+				(at 132.54 91.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Footprint" ""
+				(at 130 90 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 130 90 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "ARM Cortex-M7 600MHz"
+				(at 130 90 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(pin "1" (uuid "7a4bc81e-4727-4fab-9595-3b8e0b8463ce"))
+			(pin "2" (uuid "246fe551-daed-4d36-beb3-3b7a9fd219cc"))
+			(pin "3" (uuid "f0934a5d-d28c-4eaf-815a-1b6663242df3"))
+			(pin "4" (uuid "7cffa1b2-ccd3-41b4-8933-046e975fe71a"))
+			(pin "5" (uuid "6300d45e-59a7-49f5-8f75-59e33c29d750"))
+			(pin "6" (uuid "6b1e5384-b98a-4499-b5a7-20cf822220db"))
+			(pin "7" (uuid "44b35acb-e933-44fb-aa43-70d4fb98e086"))
+			(pin "8" (uuid "fa438708-37a0-433f-8f65-e13239c1daf9"))
+			(instances
+				(project "RECLAIM_Prototype"
+					(path "/c8bc6d58-335b-42c2-8737-dde68fdb46f0/781410a6-696d-469f-b6ff-a3e87a3ddb6e"
+						(reference "U_MCU")
+						(unit 1)
+					)
+				)
+			)
+		)
+
+		(symbol
+			(lib_id "Connector_Generic:Conn_01x06")
+			(at 45 70 0)
+			(unit 1)
+			(body_style 1)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(dnp no)
+			(fields_autoplaced yes)
+			(uuid "ed27b3a0-ade9-430b-a3a5-386b3a5da41e")
+			(property "Reference" "U_DRV_L"
+				(at 47.54 68.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Value" "MD13C R3"
+				(at 47.54 71.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Footprint" ""
+				(at 45 70 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 45 70 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "Cytron 30A motor driver left"
+				(at 45 70 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(pin "1" (uuid "5ecee535-0c11-41fa-a305-6befcc958537"))
+			(pin "2" (uuid "10ef1b85-3753-40c5-b770-50bef691d418"))
+			(pin "3" (uuid "ef961200-6ab7-4519-9b64-89ea2985bc9c"))
+			(pin "4" (uuid "ffa89582-81ef-4905-a5b1-b0e4087859e1"))
+			(pin "5" (uuid "2c36c9ec-7751-4fb8-8d60-eb3b151b99f6"))
+			(pin "6" (uuid "0cf440cd-6836-41a8-b7dc-531bbbc0af0e"))
+			(pin "7" (uuid "c4204e44-70c0-469a-aea4-c51725c76d7d"))
+			(pin "8" (uuid "f4ccad47-55af-46de-8920-bd3316af51da"))
+			(instances
+				(project "RECLAIM_Prototype"
+					(path "/c8bc6d58-335b-42c2-8737-dde68fdb46f0/781410a6-696d-469f-b6ff-a3e87a3ddb6e"
+						(reference "U_DRV_L")
+						(unit 1)
+					)
+				)
+			)
+		)
+
+		(symbol
+			(lib_id "Connector_Generic:Conn_01x08")
+			(at 45 130 0)
+			(unit 1)
+			(body_style 1)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(dnp no)
+			(fields_autoplaced yes)
+			(uuid "252320a5-c539-4936-a2a1-875accdd14b0")
+			(property "Reference" "U_DRV_R"
+				(at 47.54 128.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Value" "BTS7960"
+				(at 47.54 131.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Footprint" ""
+				(at 45 130 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 45 130 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "43A motor driver right (replaced fried MD13C)"
+				(at 45 130 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(pin "1" (uuid "fd5abe8c-a186-447a-a47a-f91378ea5639"))
+			(pin "2" (uuid "3ba8f3d9-a9f1-44af-8522-5ee865797db6"))
+			(pin "3" (uuid "9db51b7d-ad50-4b05-abf1-8c8255b1be4e"))
+			(pin "4" (uuid "920f956d-3c3c-4fd2-a63d-19e24db62760"))
+			(pin "5" (uuid "ea7dcd4b-dcd5-439e-b670-5f28a93e8e4c"))
+			(pin "6" (uuid "e2f58ed1-856f-4cb8-b173-aa2cb9a9e90f"))
+			(pin "7" (uuid "23a7986c-6098-4584-9cea-0ac0837dfd38"))
+			(pin "8" (uuid "5ae17575-a569-43b4-9da9-7af2a62a2a39"))
+			(instances
+				(project "RECLAIM_Prototype"
+					(path "/c8bc6d58-335b-42c2-8737-dde68fdb46f0/781410a6-696d-469f-b6ff-a3e87a3ddb6e"
+						(reference "U_DRV_R")
+						(unit 1)
+					)
+				)
+			)
+		)
+
+		(symbol
+			(lib_id "Connector_Generic:Conn_01x06")
+			(at 270 65 0)
+			(unit 1)
+			(body_style 1)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(dnp no)
+			(fields_autoplaced yes)
+			(uuid "1de779a8-b976-4315-bb63-b293e9e96d12")
+			(property "Reference" "M_L"
+				(at 272.54 63.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Value" "JGB37-520 L"
+				(at 272.54 66.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Footprint" ""
+				(at 270 65 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 270 65 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "12V 37RPM motor+encoder left"
+				(at 270 65 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(pin "1" (uuid "2c7d46dc-e83e-4cc0-b227-8d286119d525"))
+			(pin "2" (uuid "78077835-8073-4667-b684-7c9ab8c75636"))
+			(pin "3" (uuid "60d35ab9-6061-48f2-b281-e1b9305f89c8"))
+			(pin "4" (uuid "b71f6c56-2be5-4fa0-8819-04b1756db647"))
+			(pin "5" (uuid "c1c6225c-edc5-4ddd-a83c-f973a245dfda"))
+			(pin "6" (uuid "63d713af-f7e7-4d1a-a5d2-949266ef5bb8"))
+			(pin "7" (uuid "22429ff8-7bb4-4f50-9706-94df4c2cb6d6"))
+			(pin "8" (uuid "b20d2731-7639-464b-b11c-93bd0d2ba6bb"))
+			(instances
+				(project "RECLAIM_Prototype"
+					(path "/c8bc6d58-335b-42c2-8737-dde68fdb46f0/781410a6-696d-469f-b6ff-a3e87a3ddb6e"
+						(reference "M_L")
+						(unit 1)
+					)
+				)
+			)
+		)
+
+		(symbol
+			(lib_id "Connector_Generic:Conn_01x06")
+			(at 270 115 0)
+			(unit 1)
+			(body_style 1)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(dnp no)
+			(fields_autoplaced yes)
+			(uuid "8f474de2-057a-4f82-ba11-4d0e0e39321d")
+			(property "Reference" "M_R"
+				(at 272.54 113.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Value" "JGB37-520 R"
+				(at 272.54 116.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Footprint" ""
+				(at 270 115 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 270 115 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "12V 37RPM motor+encoder right"
+				(at 270 115 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(pin "1" (uuid "92462193-8443-4beb-ba5d-fa6423647114"))
+			(pin "2" (uuid "a396073f-e37f-44c2-8672-fbac0076cf1a"))
+			(pin "3" (uuid "1d43121f-94b2-454f-8b92-471e312b36eb"))
+			(pin "4" (uuid "08430464-ddaa-48b2-9a9a-551b5a871233"))
+			(pin "5" (uuid "d686a53c-3c76-467b-8cab-edbfd21d3dac"))
+			(pin "6" (uuid "08ab4fac-eac8-4a12-a613-d7917f25ccb4"))
+			(pin "7" (uuid "14528528-7840-49af-94b9-fc5132b25204"))
+			(pin "8" (uuid "38db2b5e-c201-4ecf-86d5-8b814625d2be"))
+			(instances
+				(project "RECLAIM_Prototype"
+					(path "/c8bc6d58-335b-42c2-8737-dde68fdb46f0/781410a6-696d-469f-b6ff-a3e87a3ddb6e"
+						(reference "M_R")
+						(unit 1)
+					)
+				)
+			)
+		)
+
+		(symbol
+			(lib_id "Connector_Generic:Conn_01x01")
+			(at 270 170 0)
+			(unit 1)
+			(body_style 1)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(dnp no)
+			(fields_autoplaced yes)
+			(uuid "099f0b64-fd43-47c7-9ea9-16bc63f02ab5")
+			(property "Reference" "SIG_J1"
+				(at 272.54 168.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Value" "J1 Base P10"
+				(at 272.54 171.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Footprint" ""
+				(at 270 170 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 270 170 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "Servo signal to DS3218"
+				(at 270 170 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(pin "1" (uuid "6be26216-8120-4fa5-8f44-5917b371dbac"))
+			(pin "2" (uuid "af4d8372-7c48-4de5-be31-5a048c0a54c5"))
+			(pin "3" (uuid "9cbcc288-600a-4e46-814d-f38cbfa44979"))
+			(pin "4" (uuid "e2c45be2-6e7f-4a8d-89b6-fbb463ea5f4b"))
+			(pin "5" (uuid "4bef867f-566c-445b-9888-4a5af34adc3d"))
+			(pin "6" (uuid "7bc598c5-10df-4ab6-ac54-e83370577e74"))
+			(pin "7" (uuid "9d630b62-17be-4d94-8d7e-a59b1284341e"))
+			(pin "8" (uuid "250b2321-fdc8-494f-8256-353a974dabfa"))
+			(instances
+				(project "RECLAIM_Prototype"
+					(path "/c8bc6d58-335b-42c2-8737-dde68fdb46f0/781410a6-696d-469f-b6ff-a3e87a3ddb6e"
+						(reference "SIG_J1")
+						(unit 1)
+					)
+				)
+			)
+		)
+
+		(symbol
+			(lib_id "Connector_Generic:Conn_01x01")
+			(at 305 170 0)
+			(unit 1)
+			(body_style 1)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(dnp no)
+			(fields_autoplaced yes)
+			(uuid "679bb0b1-0502-4292-987c-8a1bbe446f99")
+			(property "Reference" "SIG_J2"
+				(at 307.54 168.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Value" "J2 Shldr P11"
+				(at 307.54 171.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Footprint" ""
+				(at 305 170 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 305 170 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "Servo signal to DS3235"
+				(at 305 170 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(pin "1" (uuid "0d11f30c-1ff7-4eaf-92f9-0fc01fc1b685"))
+			(pin "2" (uuid "05495cf0-df8f-411d-a564-826600cf324b"))
+			(pin "3" (uuid "72d83a50-40f6-458d-9b85-67b2d1fc638f"))
+			(pin "4" (uuid "aa815f8f-5761-4416-bde8-7ffd6d5b296e"))
+			(pin "5" (uuid "e75f018a-af43-4b35-ada5-aeeb7171d677"))
+			(pin "6" (uuid "f2d3fcad-f2ab-495d-99ca-06567fbb1624"))
+			(pin "7" (uuid "0f1384db-0dc6-44d4-83e2-99ec80c10159"))
+			(pin "8" (uuid "442d5243-0baa-40c9-b080-1d429c2762b7"))
+			(instances
+				(project "RECLAIM_Prototype"
+					(path "/c8bc6d58-335b-42c2-8737-dde68fdb46f0/781410a6-696d-469f-b6ff-a3e87a3ddb6e"
+						(reference "SIG_J2")
+						(unit 1)
+					)
+				)
+			)
+		)
+
+		(symbol
+			(lib_id "Connector_Generic:Conn_01x01")
+			(at 340 170 0)
+			(unit 1)
+			(body_style 1)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(dnp no)
+			(fields_autoplaced yes)
+			(uuid "aca4055f-72e6-4b18-b3b4-8c9808a6cf3a")
+			(property "Reference" "SIG_J3"
+				(at 342.54 168.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Value" "J3 Elbow P12"
+				(at 342.54 171.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Footprint" ""
+				(at 340 170 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 340 170 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "Servo signal to DS3218"
+				(at 340 170 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(pin "1" (uuid "7e4eaded-f91e-4522-b8b2-d1989f8148bd"))
+			(pin "2" (uuid "1bdc466d-2259-4491-bc7a-4bd9ab388501"))
+			(pin "3" (uuid "5d38c71f-c6d1-48d1-8ca7-ed213f9b746b"))
+			(pin "4" (uuid "99de1b5c-a325-4c58-b5a7-b942da56a946"))
+			(pin "5" (uuid "13cc9262-b19e-4232-9177-7173edb02333"))
+			(pin "6" (uuid "c2098afe-5350-4138-8d1f-c708b294f571"))
+			(pin "7" (uuid "aa7d6e63-745e-47d4-850d-0fb566884643"))
+			(pin "8" (uuid "35109516-ed29-44dd-b1c7-89d284254593"))
+			(instances
+				(project "RECLAIM_Prototype"
+					(path "/c8bc6d58-335b-42c2-8737-dde68fdb46f0/781410a6-696d-469f-b6ff-a3e87a3ddb6e"
+						(reference "SIG_J3")
+						(unit 1)
+					)
+				)
+			)
+		)
+
+		(symbol
+			(lib_id "Connector_Generic:Conn_01x01")
+			(at 270 200 0)
+			(unit 1)
+			(body_style 1)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(dnp no)
+			(fields_autoplaced yes)
+			(uuid "7a98ec09-4106-4002-835e-db2d44314b9d")
+			(property "Reference" "SIG_J4"
+				(at 272.54 198.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Value" "J4 WrstP P13"
+				(at 272.54 201.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Footprint" ""
+				(at 270 200 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 270 200 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "Servo signal to DS3218"
+				(at 270 200 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(pin "1" (uuid "fe5e0247-e6b7-429d-9658-a8c7047139ac"))
+			(pin "2" (uuid "d2e3bec0-b555-4e59-9ca4-caa44c823a3e"))
+			(pin "3" (uuid "ddd09c16-b1c3-4898-b084-f05f4963d8a8"))
+			(pin "4" (uuid "d8e04116-339f-473c-9e38-a8bc8ce3864b"))
+			(pin "5" (uuid "bd398d6f-3c0b-4b53-8fd1-076463402a77"))
+			(pin "6" (uuid "073e7cf7-1625-4e77-a646-337e9f206670"))
+			(pin "7" (uuid "7f3fbdd1-edbb-44b8-a803-ccbeb99973fd"))
+			(pin "8" (uuid "ee18adfe-18bc-4e97-97db-02ed629b24ad"))
+			(instances
+				(project "RECLAIM_Prototype"
+					(path "/c8bc6d58-335b-42c2-8737-dde68fdb46f0/781410a6-696d-469f-b6ff-a3e87a3ddb6e"
+						(reference "SIG_J4")
+						(unit 1)
+					)
+				)
+			)
+		)
+
+		(symbol
+			(lib_id "Connector_Generic:Conn_01x01")
+			(at 305 200 0)
+			(unit 1)
+			(body_style 1)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(dnp no)
+			(fields_autoplaced yes)
+			(uuid "4e70cd07-58f8-4058-a6db-7c41fa44599b")
+			(property "Reference" "SIG_J5"
+				(at 307.54 198.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Value" "J5 WrstR P14"
+				(at 307.54 201.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Footprint" ""
+				(at 305 200 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 305 200 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "Servo signal to MG996R"
+				(at 305 200 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(pin "1" (uuid "261f228a-129e-45ea-beda-e03802cf6058"))
+			(pin "2" (uuid "264abc4f-391d-4db0-9437-55ffcd19a179"))
+			(pin "3" (uuid "f13bbeb5-5a3a-42eb-bfde-613e97bca969"))
+			(pin "4" (uuid "0c6b46ff-9c89-4699-b330-c69c017a540b"))
+			(pin "5" (uuid "cc660ce5-6919-41c6-9964-65ce05ea776a"))
+			(pin "6" (uuid "4ae4b34a-188d-4ee6-91eb-d841c5d9fb66"))
+			(pin "7" (uuid "9f20eaa1-f1d0-47c1-924e-99263881ab09"))
+			(pin "8" (uuid "0870f466-a52e-4c78-82df-380ad77fba93"))
+			(instances
+				(project "RECLAIM_Prototype"
+					(path "/c8bc6d58-335b-42c2-8737-dde68fdb46f0/781410a6-696d-469f-b6ff-a3e87a3ddb6e"
+						(reference "SIG_J5")
+						(unit 1)
+					)
+				)
+			)
+		)
+
+		(symbol
+			(lib_id "Connector_Generic:Conn_01x01")
+			(at 340 200 0)
+			(unit 1)
+			(body_style 1)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(dnp no)
+			(fields_autoplaced yes)
+			(uuid "d39a8f34-9fff-4d58-982b-7009f4700e0b")
+			(property "Reference" "SIG_J6"
+				(at 342.54 198.73 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Value" "J6 Grip P15"
+				(at 342.54 201.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)) (justify left))
+			)
+			(property "Footprint" ""
+				(at 340 200 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Datasheet" ""
+				(at 340 200 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(property "Description" "Servo signal to DS3218"
+				(at 340 200 0)
+				(hide yes)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects (font (size 1.27 1.27)))
+			)
+			(pin "1" (uuid "599d30d8-21fe-4447-882b-3deb38dac695"))
+			(pin "2" (uuid "fd14cd46-759f-457e-a42f-7d623b734025"))
+			(pin "3" (uuid "e46c8b3c-e047-41af-aa1f-542253672d46"))
+			(pin "4" (uuid "6452bdf5-9d5a-4aed-9b9e-1f662a08b5d6"))
+			(pin "5" (uuid "cd13774c-3558-48b5-9b52-85b46f48e278"))
+			(pin "6" (uuid "c6e01e65-67d0-44da-83e7-484815c54c05"))
+			(pin "7" (uuid "345f615a-6ebd-4225-b592-7946475ca673"))
+			(pin "8" (uuid "910044ed-550e-47aa-91cc-b4fad5fcf667"))
+			(instances
+				(project "RECLAIM_Prototype"
+					(path "/c8bc6d58-335b-42c2-8737-dde68fdb46f0/781410a6-696d-469f-b6ff-a3e87a3ddb6e"
+						(reference "SIG_J6")
+						(unit 1)
+					)
+				)
+			)
+		)
+
+		(label "VBAT_FUSED_2"
+			(at 45 60 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "84af8350-7029-419f-b9e4-fddffd926f6f")
+		)
+
+		(label "PWM_L"
+			(at 80 68 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "f9d33f50-57c1-4087-9c43-98cf32332fb2")
+		)
+
+		(label "DIR_L"
+			(at 80 73 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "d2323161-75b9-46ef-96ea-f15eee8a2469")
+		)
+
+		(label "MOTOR_L+"
+			(at 65 78 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "1ec180a1-11d6-42da-a3df-815d68ddb7d8")
+		)
+
+		(label "MOTOR_L-"
+			(at 65 83 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "25c37f15-5111-4c25-9417-8521074cce2d")
+		)
+
+		(label "GND"
+			(at 45 90 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "62c40063-6bb2-47fd-ab5f-23c6b299024b")
+		)
+
+		(label "VBAT_FUSED_4"
+			(at 45 120 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "0f61ab44-700f-42b1-9994-d5f967bdcdb8")
+		)
+
+		(label "LPWM_R"
+			(at 80 128 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "5aae20fa-9e06-42ca-b7b2-f10c892e70d7")
+		)
+
+		(label "RPWM_R"
+			(at 80 133 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "39f3da71-bb42-469f-bbe4-dc8baf26743e")
+		)
+
+		(label "MOTOR_R+"
+			(at 65 140 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "dacf82c1-c048-4b65-8088-b00168fe5afe")
+		)
+
+		(label "MOTOR_R-"
+			(at 65 145 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "6c08c282-f9ff-4b4d-a8df-d8c4ee8b9668")
+		)
+
+		(label "BTS_R_EN"
+			(at 80 150 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "59c2a8b9-bedf-434a-9c21-c4200c4e81b8")
+		)
+
+		(label "BTS_L_EN"
+			(at 80 155 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "2ec4c934-6516-475c-8ab5-3ba048cd227f")
+		)
+
+		(label "GND"
+			(at 45 160 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "ec355353-5c8b-4d4e-9c9a-a22d11d74d8b")
+		)
+
+		(label "PWM_L"
+			(at 110 75 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "d3a9bc8e-9919-4f9c-9ed1-e95470ee155a")
+		)
+
+		(label "DIR_L"
+			(at 110 78 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "af886df0-36ff-4091-a0c8-1e8b65aafd7f")
+		)
+
+		(label "ENC_L_A"
+			(at 110 84 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "5503a94f-eab9-4244-a198-697c93845748")
+		)
+
+		(label "ENC_L_B"
+			(at 110 87 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "0c2ad4ce-a386-4695-ac09-be81acbae432")
+		)
+
+		(label "SERVO_J1"
+			(at 155 80 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "baf1d368-e1bd-488b-9dc2-65ad213ffb8f")
+		)
+
+		(label "SERVO_J2"
+			(at 155 83 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "49401040-781c-470e-b563-a2eed90ca9db")
+		)
+
+		(label "SERVO_J3"
+			(at 155 86 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "148b610d-e3e7-48d7-a5ce-7830e82fe609")
+		)
+
+		(label "SERVO_J4"
+			(at 155 89 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "d69cbe8a-3342-48da-91bd-5b26f5b88872")
+		)
+
+		(label "SERVO_J5"
+			(at 155 92 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "1d2bb7a0-94d8-48de-b101-049fa22e7849")
+		)
+
+		(label "SERVO_J6"
+			(at 155 95 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "b4a778c4-a370-48fe-96df-dd621b678131")
+		)
+
+		(label "ENC_R_B"
+			(at 155 100 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "7b783b8c-abe6-479e-9627-ff8f655ac285")
+		)
+
+		(label "ENC_R_A"
+			(at 155 103 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "7eb0b501-ca3f-4148-b6c3-18112b0496b1")
+		)
+
+		(label "RPWM_R"
+			(at 155 108 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "600066a0-69d1-4ed7-97d2-80192ce2efc0")
+		)
+
+		(label "LPWM_R"
+			(at 155 111 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "e3961dcd-9e07-406a-90a7-1c47c2ce063c")
+		)
+
+		(label "ENC_L_A"
+			(at 270 75 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "af770848-d494-4620-a3ed-c5cae982df48")
+		)
+
+		(label "ENC_L_B"
+			(at 270 78 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "d4c70627-5afc-4bbf-9db8-7e781443cec5")
+		)
+
+		(label "ENC_R_A"
+			(at 270 125 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "8a4774e6-0ccc-480d-8b97-432162b7eb04")
+		)
+
+		(label "ENC_R_B"
+			(at 270 128 0)
+			(fields_autoplaced yes)
+			(effects
+				(font (size 1.27 1.27))
+				(justify left bottom)
+			)
+			(uuid "cd4a2f26-10e2-4480-97e1-ea613de8b269")
+		)
+
+)

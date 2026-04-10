@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "8aa666fd-8fd8-4514-ae6b-072cd70ff812")
-	(paper "A2")
+	(paper "A3")
 	(title_block
 		(title "RECLAIM Product PCB - Motor Drivers, CAN, IMU & Power Monitoring")
 		(date "2026-03-19")
@@ -1013,7 +1013,7 @@
 
 	(symbol
 		(lib_id "2026-04-10_02-12-54:DRV8243SQDGQRQ1")
-		(at 30 40 0)
+		(at 50 70 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1160,7 +1160,7 @@
 	)
 	(symbol
 		(lib_id "2026-04-10_02-12-54:DRV8243SQDGQRQ1")
-		(at 95 40 0)
+		(at 135 70 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1307,7 +1307,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 20 30 0)
+		(at 30 42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1373,7 +1373,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 20 35 0)
+		(at 40 42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1439,7 +1439,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 20 40 0)
+		(at 30 55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1505,7 +1505,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 20 45 0)
+		(at 75 42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1571,7 +1571,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 20 50 0)
+		(at 75 55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1637,7 +1637,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85 30 0)
+		(at 115 42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1703,7 +1703,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85 35 0)
+		(at 125 42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1769,7 +1769,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85 40 0)
+		(at 115 55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1835,7 +1835,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS")
-		(at 85 45 0)
+		(at 160 42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1901,7 +1901,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85 50 0)
+		(at 160 55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1967,7 +1967,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 30 80 0)
+		(at 35 140 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2036,7 +2036,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 95 80 0)
+		(at 120 140 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2105,7 +2105,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 40 80 0)
+		(at 65 140 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2177,7 +2177,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 105 80 0)
+		(at 150 140 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2249,7 +2249,7 @@
 	)
 	(symbol
 		(lib_id "Interface_CAN_LIN:SN65HVD230")
-		(at 160 40 0)
+		(at 215 55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2333,7 +2333,7 @@
 	)
 	(symbol
 		(lib_id "Interface_CAN_LIN:SN65HVD230")
-		(at 160 70 0)
+		(at 215 105 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2417,7 +2417,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 155 35 0)
+		(at 200 42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2483,7 +2483,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 155 65 0)
+		(at 200 92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2549,7 +2549,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 155 45 0)
+		(at 230 42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2615,7 +2615,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 155 75 0)
+		(at 230 92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2681,7 +2681,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 175 40 0)
+		(at 248 55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2750,7 +2750,7 @@
 	)
 	(symbol
 		(lib_id "ICM-42688-P:ICM-42688-P")
-		(at 200 40 0)
+		(at 295 65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2852,7 +2852,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 190 35 0)
+		(at 280 42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2918,7 +2918,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 190 40 0)
+		(at 290 42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2984,7 +2984,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190 45 0)
+		(at 310 42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3050,7 +3050,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Energy:INA226")
-		(at 220 40 0)
+		(at 365 48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3134,7 +3134,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Energy:INA226")
-		(at 220 60 0)
+		(at 365 90 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3218,7 +3218,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Energy:INA226")
-		(at 220 80 0)
+		(at 365 132 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3302,7 +3302,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 215 35 0)
+		(at 350 40 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3368,7 +3368,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 215 55 0)
+		(at 350 82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3434,7 +3434,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 215 75 0)
+		(at 350 124 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3500,7 +3500,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 230 35 0)
+		(at 385 40 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3566,7 +3566,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 230 55 0)
+		(at 385 82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3632,7 +3632,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 230 75 0)
+		(at 385 124 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3698,7 +3698,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 30 20 0)
+		(at 40 25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3760,7 +3760,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 95 20 0)
+		(at 125 25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3822,7 +3822,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 160 25 0)
+		(at 210 25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3884,7 +3884,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 200 25 0)
+		(at 290 25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3946,7 +3946,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 220 25 0)
+		(at 350 25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4008,7 +4008,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30 65 0)
+		(at 40 165 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4070,7 +4070,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95 65 0)
+		(at 125 165 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4132,7 +4132,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160 55 0)
+		(at 210 135 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4194,7 +4194,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200 58 0)
+		(at 290 135 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4256,7 +4256,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220 95 0)
+		(at 350 165 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4318,7 +4318,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 25 20 0)
+		(at 48 25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4380,7 +4380,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 20 20 0)
+		(at 133 25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4441,7 +4441,7 @@
 		)
 	)
 	(label "SPI1_SCK"
-		(at 15 40 0)
+		(at 30 65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4452,7 +4452,7 @@
 		(uuid "997a5003-7492-4e11-93e5-be636fa9ee30")
 	)
 	(label "SPI1_CS_DRV_L"
-		(at 15 42.54 0)
+		(at 30 70 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4463,7 +4463,7 @@
 		(uuid "6da59958-1e82-4c30-b23f-36df169a8d0e")
 	)
 	(label "SPI1_MOSI"
-		(at 15 45.08 0)
+		(at 30 75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4474,7 +4474,7 @@
 		(uuid "d1b5b627-093b-438c-80cf-be67da02864e")
 	)
 	(label "SPI1_MISO"
-		(at 15 47.62 0)
+		(at 30 80 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4485,7 +4485,7 @@
 		(uuid "db365462-9ec2-4d96-8847-5c55d63e77ce")
 	)
 	(label "MOTOR_PWR_L"
-		(at 20 32 0)
+		(at 35 35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4496,7 +4496,7 @@
 		(uuid "ac73e2d9-e577-4b7c-8e4e-6424a615a7f3")
 	)
 	(label "SPI1_SCK"
-		(at 80 40 0)
+		(at 115 65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4507,7 +4507,7 @@
 		(uuid "f3a9d9bb-2572-479b-8a21-286ba4da63a9")
 	)
 	(label "SPI1_CS_DRV_R"
-		(at 80 42.54 0)
+		(at 115 70 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4518,7 +4518,7 @@
 		(uuid "2a194e43-7118-4848-a074-a7a969f0ed1b")
 	)
 	(label "SPI1_MOSI"
-		(at 80 45.08 0)
+		(at 115 75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4529,7 +4529,7 @@
 		(uuid "e1f74255-bad6-4d26-96f8-292780e6af13")
 	)
 	(label "SPI1_MISO"
-		(at 80 47.62 0)
+		(at 115 80 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4540,7 +4540,7 @@
 		(uuid "0eb8a60c-1eeb-49a6-b093-3b76c4c2f928")
 	)
 	(label "MOTOR_PWR_R"
-		(at 85 32 0)
+		(at 120 35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4551,7 +4551,7 @@
 		(uuid "99bbecb4-3f41-46cf-b31d-18f50557b188")
 	)
 	(label "ENC_L_A"
-		(at 40 78 0)
+		(at 65 135 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4562,7 +4562,7 @@
 		(uuid "1ebf20a3-2c4b-4cb1-9297-c4c393b8c839")
 	)
 	(label "ENC_L_B"
-		(at 40 80.54 0)
+		(at 65 140 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4573,7 +4573,7 @@
 		(uuid "d9ce2161-4015-4457-953b-e3bb4d35c3aa")
 	)
 	(label "ENC_R_A"
-		(at 105 78 0)
+		(at 150 135 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4584,7 +4584,7 @@
 		(uuid "a3bd6c65-42be-4371-b4be-81ed3e73a4ad")
 	)
 	(label "ENC_R_B"
-		(at 105 80.54 0)
+		(at 150 140 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4595,7 +4595,7 @@
 		(uuid "b5e14667-645c-4e8e-bda4-b1a8910f5ee0")
 	)
 	(label "CAN1_TX"
-		(at 155 38 0)
+		(at 198 52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4606,7 +4606,7 @@
 		(uuid "6d4329fd-6c25-4dc4-8f10-1db86403ccf2")
 	)
 	(label "CAN1_RX"
-		(at 155 40.54 0)
+		(at 198 57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4617,7 +4617,7 @@
 		(uuid "b2684d70-934c-48f4-b9b3-1457c7d63efe")
 	)
 	(label "CAN2_TX"
-		(at 155 68 0)
+		(at 198 102 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4628,7 +4628,7 @@
 		(uuid "6c2567f1-3ed4-4ab0-a33c-ce267912d9a9")
 	)
 	(label "CAN2_RX"
-		(at 155 70.54 0)
+		(at 198 107 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4639,7 +4639,7 @@
 		(uuid "0752c200-fbb3-430c-b3a7-772d177fc12c")
 	)
 	(label "CAN_H_ARM"
-		(at 175 38 0)
+		(at 252 52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4650,7 +4650,7 @@
 		(uuid "57f4f248-6a16-4eea-971b-f8f9771621c3")
 	)
 	(label "CAN_L_ARM"
-		(at 175 40.54 0)
+		(at 252 57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4661,7 +4661,7 @@
 		(uuid "cf6fb18c-b75b-4928-90a0-f4b19256b4ff")
 	)
 	(label "SPI1_SCK"
-		(at 185 42.54 0)
+		(at 278 62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4672,7 +4672,7 @@
 		(uuid "5a497256-78e4-4ba2-a589-adf511cfbfaf")
 	)
 	(label "SPI1_CS_IMU"
-		(at 185 45.08 0)
+		(at 278 67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4683,7 +4683,7 @@
 		(uuid "1ba12c1d-667b-46fe-abd2-27816fb32b32")
 	)
 	(label "SPI1_MOSI"
-		(at 185 47.62 0)
+		(at 278 72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4694,7 +4694,7 @@
 		(uuid "5ef6b147-beb6-4996-9fb0-17d724b1c044")
 	)
 	(label "SPI1_MISO"
-		(at 185 50.16 0)
+		(at 278 77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4705,7 +4705,7 @@
 		(uuid "1500a09d-34cc-47d7-8640-5872eee296fc")
 	)
 	(label "I2C1_SCL"
-		(at 215 40 0)
+		(at 345 60 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4716,7 +4716,7 @@
 		(uuid "0f85426d-4c53-4203-ae0a-d8010ddc2e04")
 	)
 	(label "I2C1_SDA"
-		(at 215 42.54 0)
+		(at 345 65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4727,7 +4727,7 @@
 		(uuid "73d3cf3d-0f4e-48e5-968d-3c361fe89d05")
 	)
 	(label "VCC_25V"
-		(at 215 32 0)
+		(at 345 35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4738,7 +4738,7 @@
 		(uuid "4189467d-1cc6-43ff-872e-8e12e8f70df9")
 	)
 	(label "VCC_12V"
-		(at 215 52 0)
+		(at 345 77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4749,7 +4749,7 @@
 		(uuid "6031719b-f1c1-4e3a-92d1-72818d22b89d")
 	)
 	(label "VCC_5V"
-		(at 215 72 0)
+		(at 345 119 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

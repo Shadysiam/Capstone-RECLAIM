@@ -1,0 +1,63 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c8bc6d58-335b-42c2-8737-dde68fdb46f0")
+	(paper "A3")
+	(title_block
+		(title "RECLAIM Prototype — Index")
+		(date "2026-04-10")
+		(rev "01")
+		(company "Western University / MSE 4499")
+	)
+	(lib_symbols
+	)
+		(sheet
+			(at 40 60)
+			(size 80 30)
+			(fields_autoplaced yes)
+			(stroke (width 0.2) (type solid) (color 0 0 0 1))
+			(fill (color 255 255 255 1))
+			(uuid "9af8c6cc-e378-43c7-9348-2ccf70b114e1")
+			(property "Sheetname" "Power_Distribution"
+				(at 40 59 0)
+				(effects (font (size 1.524 1.524)) (justify left bottom))
+			)
+			(property "Sheetfile" "Power_Distribution.kicad_sch"
+				(at 40 91 0)
+				(effects (font (size 1.016 1.016)) (justify left top))
+			)
+		)
+		(sheet
+			(at 150 60)
+			(size 80 30)
+			(fields_autoplaced yes)
+			(stroke (width 0.2) (type solid) (color 0 0 0 1))
+			(fill (color 255 255 255 1))
+			(uuid "781410a6-696d-469f-b6ff-a3e87a3ddb6e")
+			(property "Sheetname" "Teensy_Motor_Control"
+				(at 150 59 0)
+				(effects (font (size 1.524 1.524)) (justify left bottom))
+			)
+			(property "Sheetfile" "Teensy_Motor_Control.kicad_sch"
+				(at 150 91 0)
+				(effects (font (size 1.016 1.016)) (justify left top))
+			)
+		)
+		(sheet
+			(at 260 60)
+			(size 80 30)
+			(fields_autoplaced yes)
+			(stroke (width 0.2) (type solid) (color 0 0 0 1))
+			(fill (color 255 255 255 1))
+			(uuid "98c8d582-e838-4e72-a924-56c8886913c1")
+			(property "Sheetname" "Peripherals_Sensors"
+				(at 260 59 0)
+				(effects (font (size 1.524 1.524)) (justify left bottom))
+			)
+			(property "Sheetfile" "Peripherals_Sensors.kicad_sch"
+				(at 260 91 0)
+				(effects (font (size 1.016 1.016)) (justify left top))
+			)
+		)
+)

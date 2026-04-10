@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "bf4f5b1e-117b-4829-b38d-21956d2555cd")
-	(paper "A2")
+	(paper "A3")
 	(title_block
 		(title "RECLAIM Product PCB - Power Distribution & E-Stop")
 		(date "2026-03-19")
@@ -2557,7 +2557,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 74.93 87.63 0)
+		(at 35 80 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2639,7 +2639,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 58.42 0)
+		(at 100 28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2717,7 +2717,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 165.1 81.28 0)
+		(at 65 130 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2799,7 +2799,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 73.66 59.69 0)
+		(at 40 28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2877,7 +2877,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 157.48 59.69 0)
+		(at 108 28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2955,7 +2955,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 153.67 81.28 0)
+		(at 65 95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3037,7 +3037,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 133.35 81.28 0)
+		(at 180 70 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3119,7 +3119,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 129.54 59.69 0)
+		(at 365 28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3196,100 +3196,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:G5LE-1")
-		(at 118.11 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60d3fb76-e03c-4d6a-8ad4-1c3d26f330fa")
-		(property "Reference" "K1"
-			(at 129.54 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G5LE-1"
-			(at 129.54 97.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_Omron-G5LE-1"
-			(at 129.54 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.omron.com/ecb/products/pdf/en-g5le.pdf"
-			(at 118.11 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Omron G5LE relay, Miniature Single Pole, SPDT, 10A"
-			(at 118.11 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "a05e1ba1-1529-4a90-8472-53a88d503106")
-		)
-		(pin "4"
-			(uuid "42d5710e-3371-49a1-9db8-cec7610f5bdb")
-		)
-		(pin "3"
-			(uuid "40040d51-cbe0-4f5e-8599-abed9288086f")
-		)
-		(pin "2"
-			(uuid "56306598-416c-45c3-ac0a-8308117f13f7")
-		)
-		(pin "1"
-			(uuid "8b26668e-08c5-43fe-b9cf-3f7ae5d2b23b")
-		)
-		(instances
-			(project "RECLAIM_PCB"
-				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/9f998912-ae44-4bd2-8dfb-c414ea7bb4a8"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
-		(at 105.41 58.42 0)
+		(at 230 28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3367,7 +3275,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 147.32 58.42 0)
+		(at 48 28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3445,7 +3353,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4007")
-		(at 143.51 111.76 0)
+		(at 155 75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3547,7 +3455,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 144.78 81.28 0)
+		(at 180 85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3628,96 +3536,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 140.97 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f546d50-7880-4346-975a-72524c0543d8")
-		(property "Reference" "Q1"
-			(at 147.32 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 147.32 97.7899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 146.05 98.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 146.05 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 140.97 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9f2e3946-08a7-4f06-8f08-06c5a7b1b2fb")
-		)
-		(pin "1"
-			(uuid "c7dfecc3-3e69-4f9c-a754-e59518aa1c01")
-		)
-		(pin "3"
-			(uuid "40d724f6-7c3f-4875-9fae-a873358819f2")
-		)
-		(instances
-			(project "RECLAIM_PCB"
-				(path "/7765fcd9-2167-4c42-bf78-4e956d4b2573/9f998912-ae44-4bd2-8dfb-c414ea7bb4a8"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 138.43 119.38 0)
+		(at 140 130 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3799,7 +3619,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 116.84 60.96 0)
+		(at 305 28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3877,7 +3697,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 110.49 0)
+		(at 140 115 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3959,7 +3779,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 123.19 81.28 0)
+		(at 180 55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4041,7 +3861,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 110.49 81.28 0)
+		(at 65 60 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4125,7 +3945,7 @@
 
 	(symbol
 		(lib_id "Relay:G5LE-1")
-		(at 40 110 0)
+		(at 145 85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4200,7 +4020,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLZ44N")
-		(at 60 120 0)
+		(at 125 138 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4269,7 +4089,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4007")
-		(at 50 130 0)
+		(at 155 108 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4335,7 +4155,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 65 115 0)
+		(at 110 125 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4401,7 +4221,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 65 120 0)
+		(at 110 150 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4467,7 +4287,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 45 100 0)
+		(at 90 135 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4533,7 +4353,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 75 100 0)
+		(at 185 105 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4599,7 +4419,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 80 100 0)
+		(at 262 72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4665,7 +4485,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85 100 0)
+		(at 332 72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4731,7 +4551,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90 100 0)
+		(at 385 72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4797,7 +4617,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 80 110 0)
+		(at 262 85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4863,7 +4683,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85 110 0)
+		(at 332 85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4929,7 +4749,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 90 110 0)
+		(at 385 85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4995,7 +4815,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 95 110 0)
+		(at 385 98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5061,7 +4881,7 @@
 	)
 	(symbol
 		(lib_id "LM5116MHX_NOPB:LM5116MHX_NOPB")
-		(at 110 100 0)
+		(at 225 80 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5181,7 +5001,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 120 95 0)
+		(at 250 65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5247,7 +5067,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS34")
-		(at 120 105 0)
+		(at 240 100 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5313,7 +5133,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 115 115 0)
+		(at 255 95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5379,7 +5199,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 115 120 0)
+		(at 255 108 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5445,7 +5265,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:TPS5430DDA")
-		(at 140 100 0)
+		(at 295 80 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5529,7 +5349,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 150 95 0)
+		(at 320 65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5595,7 +5415,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS34")
-		(at 150 105 0)
+		(at 310 100 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5661,7 +5481,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 145 115 0)
+		(at 325 95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5727,7 +5547,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 145 120 0)
+		(at 325 108 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5793,7 +5613,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 170 100 0)
+		(at 365 80 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5861,7 +5681,7 @@
 		)
 	)
 	(label "VBAT"
-		(at 73 75 0)
+		(at 50 75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5872,7 +5692,7 @@
 		(uuid "be714c51-80b7-420e-b0f6-5252490baf3c")
 	)
 	(label "VBAT_MOTOR"
-		(at 100 75 0)
+		(at 65 52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5883,7 +5703,7 @@
 		(uuid "0eebd179-6592-4792-9f3a-b64d1d045a85")
 	)
 	(label "VBAT_COMPUTE"
-		(at 140 75 0)
+		(at 65 87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5894,7 +5714,7 @@
 		(uuid "ba2c7890-24ae-4e19-ab03-8faa1fde1b9e")
 	)
 	(label "VBAT_COIL"
-		(at 160 75 0)
+		(at 65 122 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5905,7 +5725,7 @@
 		(uuid "5a838ac4-79ff-416b-9f98-ea0962f5eb00")
 	)
 	(label "VCC_25V"
-		(at 75 95 0)
+		(at 175 48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5916,7 +5736,7 @@
 		(uuid "d02561fc-289b-4455-a261-8882bfd0e6ae")
 	)
 	(label "VCC_12V"
-		(at 110 90 0)
+		(at 225 55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5927,7 +5747,7 @@
 		(uuid "7e6f4267-f041-4ec5-a6c0-142b9dcf5d92")
 	)
 	(label "VCC_5V"
-		(at 140 90 0)
+		(at 295 55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5938,7 +5758,7 @@
 		(uuid "04e69aa9-3dcd-403c-a834-b70648efada9")
 	)
 	(label "VCC_3V3"
-		(at 170 90 0)
+		(at 365 55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5949,7 +5769,7 @@
 		(uuid "c3cc8659-83b8-462a-9c27-4fd78b802ce5")
 	)
 	(label "RELAY_COIL_IN"
-		(at 50 125 0)
+		(at 105 135 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5960,7 +5780,7 @@
 		(uuid "480dd68f-610f-44f5-932d-261e91f431f7")
 	)
 	(label "ESTOP_RELAY_CTRL"
-		(at 65 118 0)
+		(at 125 125 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5971,7 +5791,7 @@
 		(uuid "423a5216-c50e-4f9c-a290-b5acb14e8907")
 	)
 	(label "GND"
-		(at 40 135 0)
+		(at 130 165 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5982,7 +5802,7 @@
 		(uuid "e950e386-f5e5-4688-828b-15487ed29a7b")
 	)
 	(label "GND"
-		(at 75 108 0)
+		(at 185 118 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5993,7 +5813,7 @@
 		(uuid "0829d84c-d495-4a1a-b4f9-b6ecbeba53b1")
 	)
 	(label "GND"
-		(at 110 108 0)
+		(at 245 118 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6004,7 +5824,7 @@
 		(uuid "3716e67b-3375-4e57-96ce-5807ede29478")
 	)
 	(label "GND"
-		(at 170 108 0)
+		(at 375 108 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
