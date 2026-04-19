@@ -41,7 +41,7 @@ RECLAIM is an autonomous indoor robot designed to navigate post-event venues, de
 │                                   └──────┬──────┘       │
 │                              ┌───────────┼───────────┐  │
 │                         ┌────▼────┐ ┌────▼────┐  ┌───▼──┐│
-│                         │ MD10C L │ │BTS7960 R│  │Servos││
+│                         │ MD13C R3 L │ │BTS7960 R│  │Servos││
 │                         │ Motor   │ │ Motor   │  │ 6DOF ││
 │                         └─────────┘ └─────────┘  └──────┘│
 └─────────────────────────────────────────────────────────┘
@@ -59,7 +59,7 @@ RECLAIM is an autonomous indoor robot designed to navigate post-event venues, de
 
 ### 🚗 Locomotion & Motor Control
 - **Differential drive** on two JGB37-520 12V motors with Hall-effect quadrature encoders
-- **Mixed motor driver setup:** Cytron MD10C (left) + BTS7960 (right), driven by Teensy 4.1 via PWM/DIR
+- **Mixed motor driver setup:** Cytron MD13C R3 (left) + BTS7960 (right), driven by Teensy 4.1 via PWM/DIR
 - **PI velocity controller** on Teensy with per-wheel gains derived from step-response system identification
 - Anti-windup, feedforward, low-pass filtering, ramp rate limiting (0.5 m/s²), static friction compensation
 - **Calibrated odometry:** 1% distance error (50.5cm for 50cm target), 2-3° heading error on 360° spin
@@ -98,7 +98,7 @@ RECLAIM is an autonomous indoor robot designed to navigate post-event venues, de
 | Camera | OAK-D Lite | DepthAI v3, USB 3.0, stereo depth |
 | LiDAR | RPLIDAR A1M8 | 360°, 0.15–12m range |
 | Drive Motors | 2× JGB37-520 12V 37RPM | Hall-effect quadrature encoders |
-| Motor Drivers | Cytron MD10C + BTS7960 | PWM+DIR / LPWM+RPWM |
+| Motor Drivers | Cytron MD13C R3 + BTS7960 | PWM+DIR / LPWM+RPWM |
 | Arm Servos | DS3218, DS3235, MG996R | 6-DOF, mixed torque ratings |
 | Battery | ZapLitho 12.8V 22Ah LiFePO4 | 30A BMS |
 | Network | GL.iNet Mango router | WiFi bridge for SSH/rsync |
