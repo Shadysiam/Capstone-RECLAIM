@@ -9,9 +9,13 @@ RECLAIM is an autonomous indoor robot designed to navigate post-event venues, de
 
 ## Demo
 
-> Robot navigating autonomously, detecting and picking up waste items in a real venue environment.
+| | |
+|---|---|
+| ![Team at Showcase](docs/media/team_showcase.jpg) | **Western Engineering Capstone Showcase — March 26, 2026** <br><br> Team RECLAIM with the robot at the showcase. The arm, differential drive base, and sorting bins (Trash / Compost) are visible. <br><br> 🏆 **3rd Place overall** |
 
-*Photos and video coming soon.*
+### Robot in Action
+
+> Videos of the robot autonomously detecting and picking up waste — upload to YouTube coming soon.
 
 ---
 
