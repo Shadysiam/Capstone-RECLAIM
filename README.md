@@ -86,6 +86,8 @@ RECLAIM is an autonomous indoor robot designed to navigate post-event venues, de
 - LewanSoul mechanical claw gripper (0–193.5mm opening, 700g clamp force)
 - Servo PWM controlled directly from Teensy 4.1 pins 10–15
 - 6.8V servo bus with 10,000µF bulk capacitor to prevent brownout on simultaneous movement
+- **MoveIt2** motion planning stack configured for the 6-DOF arm (`reclaim_arm_moveit_config`) — OMPL planner, joint limits, kinematics, and RViz visualization
+- Full URDF model with STL meshes for each link — used for motion planning, collision checking, and Foxglove visualization
 
 ---
 
