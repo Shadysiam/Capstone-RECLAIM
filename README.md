@@ -15,7 +15,11 @@ RECLAIM is an autonomous indoor robot designed to navigate post-event venues, de
 
 ### Robot in Action
 
-> Videos of the robot autonomously detecting and picking up waste — upload to YouTube coming soon.
+*Click any thumbnail to watch*
+
+| | | |
+|---|---|---|
+| [![Demo 1](https://img.youtube.com/vi/9OcipLxrr-4/0.jpg)](https://youtube.com/shorts/9OcipLxrr-4) | [![Demo 2](https://img.youtube.com/vi/SzoJCjD1EAE/0.jpg)](https://youtube.com/shorts/SzoJCjD1EAE) | [![Demo 3](https://img.youtube.com/vi/PJnd1PVIbLY/0.jpg)](https://youtube.com/shorts/PJnd1PVIbLY) |
 
 ---
 
