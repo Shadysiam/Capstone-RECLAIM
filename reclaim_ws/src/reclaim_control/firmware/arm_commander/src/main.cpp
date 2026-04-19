@@ -1,9 +1,8 @@
 // =====================================================
 // TEENSY ARM CONTROLLER — RECLAIM
 // -----------------------------------------------------
-// Based on Shady Siam's final prototype firmware.
-// Safety features added by Claude (motor pin safety,
-// servo pin init, detached startup with ARM/DISARM).
+// Teensy 4.1 firmware for 6-DOF servo arm control.
+// Serial command interface with ARM/DISARM safety.
 //
 // Features
 //   - 6 DOF hobby-servo arm control
