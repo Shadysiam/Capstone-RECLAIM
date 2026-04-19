@@ -114,3 +114,38 @@ logs/
 # Temporary files
 tmp/
 temp/
+
+# Claude Code internal files
+.claude/
+.agents/
+CLAUDE.md
+
+# KiCad backups and temp files
+*.bak
+*.bak_*
+*-backups/
+_phils_lab/
+*.lck
+~$*
+
+# Diagnostic logs
+diag_log_*.jsonl
+
+# Redundant zip archives
+reclaim_drive_update_mar23.zip
+
+# Internal docs (not for public)
+docs/final_report/
+docs/product_pcb_electrical/flux_ai_prompt.md
+docs/product_pcb_electrical/for_pcb_designer/
+docs/product_pcb_electrical/for_pcb_designer.zip
+docs/learning_plan.md
+docs/presentation/talking_points.docx
+research1.md
+research2.md
+research3.md
+CHANGELOG.md
+
+# Schematic generation scripts
+generate_schematic.py
+generate_prototype.py
